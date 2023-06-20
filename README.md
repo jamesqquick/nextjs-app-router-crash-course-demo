@@ -1,4 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![Next.js Crash Course Thumbnail](https://img.youtube.com/vi/3SyJUpo3Sic/0.jpg)](https://www.youtube.com/watch?v=3SyJUpo3Sic)
+
+This is the source for a demo app used in my [Next.js Crash Course YouTube Video](https://youtu.be/3SyJUpo3Sic). This video highlights all of the major features and changes that come with the App Router (stable as of version 13.4)
+
+- React Server Components
+- Nested Routes & Layouts
+- Simplified Data Fetching
+- Streaming & Suspense
+
+## Appwrite Setup
+
+Appwrite (backend as a service platform) is the sponsor of this video and demo. We use Appwrite to store event data that we query from Next.js to demo React Server Components, asynchronous data fetching, and loading states!
+
+To follow along with this demo, you'll need to create a [free cloud account with Appwrite](https://cloud.appwrite.io/), create a new project, and a database. Your `events` collection model will look like this.
+
+```
+name - string
+description - string
+date - date
+```
+
+You'll then need to make a copy of the `.env.example` file as `.env` in the root of the directory and fill in the necessary details.
+
+```
+APPWRITE_PROJECT_ID=
+APPWRITE_ENDPOINT=
+APPWRITE_EVENTS_COLLECTION_ID=
+APPWRITE_DATABASE_ID=
+```
 
 ## Getting Started
 
