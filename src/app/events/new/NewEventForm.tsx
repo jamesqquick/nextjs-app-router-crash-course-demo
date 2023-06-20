@@ -1,16 +1,10 @@
-// import { createEvent, Event } from '@/utils/Events';
-import { redirect } from 'next/navigation';
 import React from 'react';
 
-export default async function NewEventForm() {
-  async function addEventHandler(formData: FormData) {
+export default async function NewEventForm(formData: FormData) {
+  async function addEventHandler() {
+    //!Not working and don't know why :)
     'use server';
-    console.log('hey');
-    // if (
-    //   !formData.get('name') ||
-    //   !formData.get('date') ||
-    //   !formData.get('description')
-    redirect(`/events`);
+    console.log('Handle form submission');
   }
 
   return (
