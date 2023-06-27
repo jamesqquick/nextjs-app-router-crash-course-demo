@@ -1,4 +1,4 @@
-<!-- [![Next.js Crash Course Thumbnail](https://img.youtube.com/vi/3SyJUpo3Sic/0.jpg)](https://www.youtube.com/watch?v=3SyJUpo3Sic) -->
+[![Next.js Crash Course Thumbnail](https://img.youtube.com/vi/3SyJUpo3Sic/maxresdefault.jpg)](https://www.youtube.com/watch?v=3SyJUpo3Sic)
 
 This is the source for a demo app used in my [Next.js Crash Course YouTube Video](https://youtu.be/3SyJUpo3Sic). This video highlights all of the major features and changes that come with the App Router (stable as of version 13.4)
 
